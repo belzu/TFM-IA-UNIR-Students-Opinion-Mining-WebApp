@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<style>
+    table, th, td {
+    border:1px solid black;
+}
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="css/style_for_table.css"/>
+<link rel="stylesheet" type="text/css" href="css/style_for_table_2.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles_2.css"/>
+<link rel="icon" href="imgs/feeling_icon.png">
+<!--
+  <link rel="stylesheet" href="moto-html/css/bootstrap.min.css">
+  <link rel="stylesheet" href="moto-html/css/style.css">
+  <link rel="stylesheet" href="moto-html/css/responsive.css">
+-->
+
+
+
+<script type="text/javascript" src="js/uploadFile.js"></script>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Sistema de minado de opiniones de alumnos </title>
+</head>
+<body class="main-layout">
+    <div class="head_top">
+        <h1> Sistema de minado de opiniones de alumnos </h1>
+    </div>
+    <div class="content">
+    <p> Esta aplicación permite predecir las opiniones que los alumnos poseen acerca de sus profesores a través de los comentarios que realizan sobre ellos.
+    <br>
+    Para ello, los comentarios han de estar contenidos en un archivo de extensión <i>.csv</i>, con <i>Comentario</i> como única cabecera.
+    <br>
+    Cuando haya introducido el archivo <i>.csv</i>, haga click en el botón <b>predecir</b>.
+    </p>
+    <form class = "form input_file" id = "uploadbanner" enctype = "multipart/form-data">
+        <input id="fileupload" name="file" type="file" accept=".csv"/>
+        <input type="submit" value="Predecir" id="submit_prediction" onclick = "uploadFile(event)"/>
+    </form>
+    </div>
+    <br>
+    <div id="message_uploading_div"> </div>
+    <div id ="response_div">
+    </div>
+    </body>
+</html>
