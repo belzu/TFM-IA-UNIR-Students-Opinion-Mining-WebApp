@@ -1,0 +1,4 @@
+./Despliegue_Modelo/deploy
+./Despliegue_Modelo/__pycache__
+./Despliegue_Modelo/Procfile
+./Despliegue_Modelo/requirements_viejo.txt
