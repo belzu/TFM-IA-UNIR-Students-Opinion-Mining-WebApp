@@ -1,0 +1,15 @@
+Flask==1.1.2
+joblib==1.2.0
+nltk==3.6.5
+numpy
+pandas==1.5.1
+pyspellchecker==0.7.0
+scikit_learn
+spellchecker==0.4
+stanza==1.2.3
+itsdangerous==2.1.2
+gunicorn==20.1.0
+Werkzeug==2.2.2
+MarkupSafe==2.1.1
+Jinja2==3.1.2
+click==8.1.3
