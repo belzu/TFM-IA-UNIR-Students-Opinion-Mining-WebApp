@@ -1,9 +1,9 @@
-Flask==1.1.2
+Flask
 joblib==1.2.0
 nltk==3.6.5
 numpy
 pandas==1.5.1
-pyspellchecker==0.7.0
+pyspellchecker
 scikit_learn
 spellchecker==0.4
 stanza==1.2.3
@@ -13,3 +13,4 @@ Werkzeug==2.2.2
 MarkupSafe==2.1.1
 Jinja2==3.1.2
 click==8.1.3
+flask_cors==3.0.10
